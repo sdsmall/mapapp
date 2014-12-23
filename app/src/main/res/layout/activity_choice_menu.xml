@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/computer_lab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Lab"
+        android:onClick="findComputerLab"/>
+
+    <Button
+        android:id="@+id/print"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/computer_lab"
+        android:text="Self Service Printer"
+        android:onClick="findPrinter"/>
+
+    <Button
+        android:id="@+id/dining_dollars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/print"
+        android:text="Dining Dollars Location"
+        android:onClick="findDiningDollarsLoc"/>
+
+</RelativeLayout>

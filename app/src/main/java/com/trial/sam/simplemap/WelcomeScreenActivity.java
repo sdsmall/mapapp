@@ -36,7 +36,7 @@ public class WelcomeScreenActivity extends Activity {
     // Called when the user clicks the Navigate button
     public void switchToPointTypeList(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, MapsActivity.class);
+        Intent intent = new Intent(this, ChoiceMenuActivity.class);
         startActivity(intent);
     }
 }

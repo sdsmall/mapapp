@@ -27,9 +27,10 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" >
-
+            android:label="@string/title_activity_maps"
+            android:configChanges="orientation|screenSize">
         </activity>
+
         <activity
             android:name=".WelcomeScreenActivity"
             android:label="@string/title_activity_welcome_screen" >
@@ -38,6 +39,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ChoiceMenuActivity"
+            android:label="@string/title_activity_choice_menu"
+            android:parentActivityName=".WelcomeScreenActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trial.sam.simplemap.WelcomeScreenActivity" />
         </activity>
     </application>
 

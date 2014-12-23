@@ -43,11 +43,7 @@
 
         <activity
             android:name=".ChoiceMenuActivity"
-            android:label="@string/title_activity_choice_menu"
-            android:parentActivityName=".WelcomeScreenActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.trial.sam.simplemap.WelcomeScreenActivity" />
+            android:label="@string/title_activity_choice_menu">
         </activity>
     </application>
 

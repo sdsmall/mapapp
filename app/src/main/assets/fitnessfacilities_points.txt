@@ -1,0 +1,14 @@
+Fitness Facility
+Trees Pool|40.4381953|-79.9726887
+Bellefield Pool|40.4454646|-79.9508345
+Trees Climbing Wall|40.4381953|-79.9726887
+Trees Golf Practice Area|40.4381953|-79.9726887
+Trees Basketball Courts|40.4381953|-79.9726887
+Bellefield Sports Gym|40.4454646|-79.9508345
+Trees Racquetball Courts|40.4381953|-79.9726887
+Field House Squash Courts|40.4434742|-79.9641213
+Field House Track|40.4434742|-79.9641213
+Baierl Recreational Center|40.4436543|-79.9622606
+WPU Fitness Center|40.443238|-79.957651
+Trees Weight Room|40.4381953|-79.9726887
+Bellefield Fitness Center|40.4454646|-79.9508345

@@ -1,0 +1,7 @@
+Computer Lab
+Alumni Hall|40.445603|-79.953835
+Benedum Hall|40.4434816|-79.9587001
+Cathedral of Learning|40.4442945|-79.9532041
+Hillman Library|40.4426029|-79.9541547
+David Lawrence Hall|40.4422498|-79.9549787
+Sutherland Hall|40.4458344|-79.9626513

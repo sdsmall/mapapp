@@ -1,0 +1,12 @@
+PNC ATM
+Nordenberg Hall|40.4439235|-79.9558853
+Litchfield Towers|40.442542|-79.957064
+Bruce Hall|40.4429845|-79.9552497
+William Pitt Union|40.4434019|-79.954831
+Petersen Events Center|40.4439811|-79.9624812
+Sutherland Hall|40.4458344|-79.9626513
+Lothrop Hall|40.4417566|-79.9601213
+Public Safety Building|40.438646|-79.9606999
+Biomedical Science Tower|40.4424694|-79.9609899
+Benedum Hall|40.4434816|-79.9587001
+PNC Bank|40.4433672|-79.9562971

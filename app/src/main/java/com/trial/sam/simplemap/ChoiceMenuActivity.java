@@ -1,18 +1,16 @@
 package com.trial.sam.simplemap;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.content.res.AssetManager;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
-import android.widget.Toast;
 
-import java.io.File;
-import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -57,12 +55,26 @@ public class ChoiceMenuActivity extends Activity {
 
             linear1.addView(b);
 
+            final Context ctx = getApplicationContext();
+            System.out.println(ctx.toString());
+
+            final int index = jj;
+
             b.setOnClickListener(new View.OnClickListener() {
 
                 @Override
                 public void onClick(View v) {
                     // TODO Auto-generated method stub
-                    Toast.makeText(getApplicationContext(), "Yipee.."+ v.getId(), Toast.LENGTH_SHORT).show();
+                    PointSet curr = sets.get(index);
+                    String[] destNames = curr.getDestNames();
+                    double[] destLat = curr.getLatitudes();
+                    double[] destLong = curr.getLongitudes();
+
+                    Intent intent = new Intent(ctx,DistanceActivity.class);
+                    intent.putExtra("destNames",destNames);
+                    intent.putExtra("latitudes",destLat);
+                    intent.putExtra("longitudes",destLong);
+                    startActivity(intent);
                 }
             });
         }

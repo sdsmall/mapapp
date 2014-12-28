@@ -3,11 +3,14 @@
     package="com.trial.sam.simplemap" >
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="myapp.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="myapp.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 
     <!--
  The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -16,7 +19,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <uses-library android:name="com.google.android.maps"/>
+    <uses-library android:name="com.google.android.maps" />
 
     <application
         android:allowBackup="true"
@@ -32,10 +35,9 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"
-            android:configChanges="orientation|screenSize">
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_maps" >
         </activity>
-
         <activity
             android:name=".WelcomeScreenActivity"
             android:label="@string/title_activity_welcome_screen" >
@@ -45,10 +47,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".ChoiceMenuActivity"
-            android:label="@string/title_activity_choice_menu">
+            android:label="@string/title_activity_choice_menu" >
+        </activity>
+        <activity
+            android:name=".DistanceActivity"
+            android:label="@string/title_activity_distance"
+            android:parentActivityName=".ChoiceMenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trial.sam.simplemap.ChoiceMenuActivity" />
         </activity>
     </application>
 

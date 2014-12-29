@@ -1,6 +1,7 @@
 package com.trial.sam.simplemap;
 
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -28,6 +29,8 @@ public class WelcomeScreenActivity extends Activity {
 
         //draw navigate button
         b1=(Button)findViewById(R.id.button2);
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
+        b1.setTypeface(tf);
         b1.getBackground().setColorFilter(new LightingColorFilter(0xFFFFFFFF, 0x001E359D));
 
         //on click switch to choice list class

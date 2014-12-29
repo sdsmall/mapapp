@@ -17,15 +17,19 @@ public class DistanceActivity extends Activity {
     Button b;
     ScrollView scrollview;
 
+    String[] destNames;
+    double[] latitudes;
+    double[] longitudes;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
 
         Intent intent = getIntent();
-        String[] destNames = intent.getStringArrayExtra("destNames");
-        double[] latitudes = intent.getDoubleArrayExtra("latitudes");
-        double[] longitudes = intent.getDoubleArrayExtra("longitudes");
+        destNames = intent.getStringArrayExtra("destNames");
+        latitudes = intent.getDoubleArrayExtra("latitudes");
+        longitudes = intent.getDoubleArrayExtra("longitudes");
 
         scrollview = new ScrollView(this);
         LinearLayout linearlayout = new LinearLayout(this);
@@ -34,11 +38,14 @@ public class DistanceActivity extends Activity {
         scrollview.addView(linearlayout);
         this.setContentView(scrollview);
 
-        for(int jj = 0; jj<destNames.length; jj++)
+        for(int jj = 0; jj<destNames.length-1; jj++)
         {
             LinearLayout linear1 = new LinearLayout(this);
             linear1.setOrientation(LinearLayout.HORIZONTAL);
             linearlayout.addView(linear1);
+
+            //calculate distance
+
             b = new Button(this);
             b.setText(destNames[jj]);
             b.setId(jj);
@@ -58,7 +65,12 @@ public class DistanceActivity extends Activity {
                 public void onClick(View v) {
                     // TODO Auto-generated method stub
 
-                    Intent intent = new Intent(ctx,DistanceActivity.class);
+                    Intent intent = new Intent(ctx,MapsActivity.class);
+                    intent.putExtra("destNames",destNames);
+                    intent.putExtra("latitudes",latitudes);
+                    intent.putExtra("longitudes",longitudes);
+                    intent.putExtra("index",index);
+
                     startActivity(intent);
                 }
             });

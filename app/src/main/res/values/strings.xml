@@ -4,9 +4,8 @@
     <string name="app_name">SimpleMap</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_welcome_screen">PittMaps</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_choice_menu">Select your destination</string>
-    <string name="title_activity_distance">DistanceActivity</string>
+    <string name="title_activity_distance">Select your route</string>
 
 </resources>

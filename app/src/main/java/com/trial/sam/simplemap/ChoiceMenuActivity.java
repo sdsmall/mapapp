@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
@@ -48,9 +49,11 @@ public class ChoiceMenuActivity extends Activity {
             linear1.setOrientation(LinearLayout.HORIZONTAL);
             linearlayout.addView(linear1);
             b = new Button(this);
+            Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
+            b.setTextSize(14);
+            b.setTypeface(tf);
             b.setText(typeNames.get(jj));
             b.setId(jj);
-
             b.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,LayoutParams.MATCH_PARENT));
 
             linear1.addView(b);

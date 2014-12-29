@@ -2,25 +2,45 @@ package com.trial.sam.simplemap;
 
 import android.content.Intent;
 import android.graphics.LightingColorFilter;
+import android.location.Location;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity {
 
+    LatLng meTemp;
+
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
     private Button b1;
+
+    String[] destNames;
+    double[] latitudes;
+    double[] longitudes;
+    int index;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        meTemp = new LatLng(40.439084,-79.954291);
+
+        Intent intent = getIntent();
+        destNames = intent.getStringArrayExtra("destNames");
+        latitudes = intent.getDoubleArrayExtra("latitudes");
+        longitudes = intent.getDoubleArrayExtra("longitudes");
+        index = intent.getIntExtra("index",0);
+
+
         setContentView(R.layout.activity_maps);
         setUpMapIfNeeded();
 
@@ -70,13 +90,26 @@ public class MapsActivity extends FragmentActivity {
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
     private void setUpMap() {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
+        mMap.setMyLocationEnabled(true);
+        //Location myLoc = mMap.getMyLocation();
+        //LatLng me = new LatLng(myLoc.getLatitude(),myLoc.getLongitude());
+
+        mMap.addMarker(new MarkerOptions().position(meTemp).title("Me"));
+
+        LatLng curr = new LatLng(latitudes[index], longitudes[index]);
+
+        mMap.addMarker(new MarkerOptions().position(curr).title("Destination"));
+
+        mMap.animateCamera(CameraUpdateFactory.newCameraPosition(new CameraPosition(curr,15,0,0)));
     }
 
     // Called when the user clicks the Navigate button
     public void backToChoices(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, ChoiceMenuActivity.class);
+        Intent intent = new Intent(this, DistanceActivity.class);
+        intent.putExtra("destNames",destNames);
+        intent.putExtra("latitudes",latitudes);
+        intent.putExtra("longitudes",longitudes);
         startActivity(intent);
     }
 

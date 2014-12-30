@@ -4,10 +4,12 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -31,12 +33,14 @@ public class ChoiceMenuActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         getFiles();
 
         filesToPointSets();
 
         scrollview = new ScrollView(this);
+        scrollview.setBackgroundResource(R.drawable.cathy_blue);
         LinearLayout linearlayout = new LinearLayout(this);
         linearlayout.setOrientation(LinearLayout.VERTICAL);
 
@@ -49,10 +53,12 @@ public class ChoiceMenuActivity extends Activity {
             linear1.setOrientation(LinearLayout.HORIZONTAL);
             linearlayout.addView(linear1);
             b = new Button(this);
-            Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
-            b.setTextSize(14);
+            Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
+            b.setTextSize(15);
             b.setTypeface(tf);
             b.setText(typeNames.get(jj));
+            b.getBackground().setAlpha(70);
+            b.setTextColor(Color.parseColor("#1E359D"));
             b.setId(jj);
             b.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,LayoutParams.MATCH_PARENT));
 

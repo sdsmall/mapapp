@@ -1,7 +1,9 @@
 package com.trial.sam.simplemap;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.LightingColorFilter;
+import android.graphics.Typeface;
 import android.location.Location;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -45,8 +47,13 @@ public class MapsActivity extends FragmentActivity {
         setUpMapIfNeeded();
 
         //draw navigate button
+
         b1=(Button)findViewById(R.id.back_button);
+        b1.setTextSize(15);
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Black.ttf");
         b1.getBackground().setColorFilter(new LightingColorFilter(0x001E359D, 0x001E359D));
+        b1.setTextColor(Color.WHITE);
+        b1.setTypeface(tf);
     }
 
     @Override
@@ -101,6 +108,26 @@ public class MapsActivity extends FragmentActivity {
         mMap.addMarker(new MarkerOptions().position(curr).title("Destination"));
 
         mMap.animateCamera(CameraUpdateFactory.newCameraPosition(new CameraPosition(curr,15,0,0)));
+
+        System.out.println(getUrl(meTemp,curr));
+    }
+
+    public String getUrl(LatLng src, LatLng dest){
+
+        StringBuilder urlString = new StringBuilder();
+
+        urlString.append("http://maps.google.com/maps?f=d&hl=en");
+        urlString.append("&saddr=");
+        urlString.append(Double.toString(src.latitude));
+        urlString.append(",");
+        urlString.append(Double.toString(src.longitude));
+        urlString.append("&daddr=");// to
+        urlString.append(Double.toString(dest.latitude));
+        urlString.append(",");
+        urlString.append(Double.toString(dest.longitude));
+        urlString.append("&ie=UTF8&0&om=0&output=kml");
+
+        return urlString.toString();
     }
 
     // Called when the user clicks the Navigate button

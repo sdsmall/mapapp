@@ -4,20 +4,15 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.LightingColorFilter;
 import android.graphics.Typeface;
-import android.location.Location;
 import android.os.AsyncTask;
-import android.os.StrictMode;
-import android.provider.DocumentsContract;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
@@ -26,9 +21,6 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
 import org.json.JSONObject;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -50,10 +42,17 @@ public class MapsActivity extends FragmentActivity {
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
     private Button b1;
 
+
+    double lat;
+    double lon;
+
     String[] destNames;
     double[] latitudes;
     double[] longitudes;
-    int index;
+    String[] details;
+
+    String duration;
+    String distance;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,21 +60,25 @@ public class MapsActivity extends FragmentActivity {
         meTemp = new LatLng(40.439084,-79.954291);
 
         Intent intent = getIntent();
+        Bundle b = getIntent().getExtras();
+        lat = b.getDouble("lat");
+        lon = b.getDouble("lon");
+
         destNames = intent.getStringArrayExtra("destNames");
         latitudes = intent.getDoubleArrayExtra("latitudes");
         longitudes = intent.getDoubleArrayExtra("longitudes");
-        index = intent.getIntExtra("index",0);
-
+        details = intent.getStringArrayExtra("details");
 
         setContentView(R.layout.activity_maps);
         setUpMapIfNeeded();
 
         //draw navigate button
         b1=(Button)findViewById(R.id.back_button);
-        b1.setTextSize(15);
-        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Black.ttf");
+        b1.getBackground().setAlpha(70);
+        b1.setTextSize(17);
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/OpenSans-Regular.ttf");
         b1.getBackground().setColorFilter(new LightingColorFilter(0x001E359D, 0x001E359D));
-        b1.setTextColor(Color.WHITE);
+        b1.setTextColor(Color.parseColor("#1E359D"));
         b1.setTypeface(tf);
 
         Log.e("create end tag","reached end");
@@ -107,7 +110,7 @@ public class MapsActivity extends FragmentActivity {
 
         mMap.addMarker(new MarkerOptions().position(meTemp).title("Me").icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_resized)));
 
-        LatLng curr = new LatLng(latitudes[index], longitudes[index]);
+        LatLng curr = new LatLng(lat, lon);
 
         mMap.addMarker(new MarkerOptions().position(curr).title("Destination").icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_resized)));
 
@@ -178,7 +181,7 @@ public class MapsActivity extends FragmentActivity {
         String output = "json";
 
         // Building the url to the web service
-        String url = "https://maps.googleapis.com/maps/api/directions/"+output+"?"+parameters;
+        String url = "https://maps.googleapis.com/maps/api/directions/"+output+"?"+parameters+"&dirflg=w";
 
         return url;
     }
@@ -224,6 +227,14 @@ public class MapsActivity extends FragmentActivity {
                 for(int j=0;j<path.size();j++){
                     HashMap<String,String> point = path.get(j);
 
+                    if(j==0){    // Get distance from the list
+                        distance = (String)point.get("distance");
+                        continue;
+                    }else if(j==1){ // Get duration from the list
+                        duration = (String)point.get("duration");
+                        continue;
+                    }
+
                     double lat = Double.parseDouble(point.get("lat"));
                     double lng = Double.parseDouble(point.get("lng"));
                     LatLng position = new LatLng(lat, lng);
@@ -233,8 +244,8 @@ public class MapsActivity extends FragmentActivity {
 
                 // Adding all the points in the route to LineOptions
                 lineOptions.addAll(points);
-                lineOptions.width(2);
-                lineOptions.color(Color.RED);
+                lineOptions.width(4);
+                lineOptions.color(Color.BLACK);
             }
 
             // Drawing polyline in the Google Map for the i-th route
@@ -277,10 +288,11 @@ public class MapsActivity extends FragmentActivity {
     // Called when the user clicks the Navigate button
     public void backToChoices(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, DistanceActivity.class);
+        Intent intent = new Intent(this, FullMapsActivity.class);
         intent.putExtra("destNames",destNames);
         intent.putExtra("latitudes",latitudes);
         intent.putExtra("longitudes",longitudes);
+        intent.putExtra("details",details);
         startActivity(intent);
     }
 

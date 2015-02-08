@@ -18,15 +18,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-import maplistconverter.PointSet;
-
 public class ChoiceMenuActivity extends Activity {
     Button b;
     ScrollView scrollview;
     ArrayList<InputStream> files;
     ArrayList<PointSet> sets;
     ArrayList<String> typeNames;
-
 
     /** Called when the activity is first created. */
     @Override
@@ -53,8 +50,8 @@ public class ChoiceMenuActivity extends Activity {
             linear1.setOrientation(LinearLayout.HORIZONTAL);
             linearlayout.addView(linear1);
             b = new Button(this);
-            Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
-            b.setTextSize(15);
+            Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/OpenSans-Regular.ttf");
+            b.setTextSize(17);
             b.setTypeface(tf);
             b.setText(typeNames.get(jj));
             b.getBackground().setAlpha(70);
@@ -78,11 +75,13 @@ public class ChoiceMenuActivity extends Activity {
                     String[] destNames = curr.getDestNames();
                     double[] destLat = curr.getLatitudes();
                     double[] destLong = curr.getLongitudes();
+                    String[] details = curr.getDetails();
 
-                    Intent intent = new Intent(ctx,DistanceActivity.class);
+                    Intent intent = new Intent(ctx,FullMapsActivity.class);
                     intent.putExtra("destNames",destNames);
                     intent.putExtra("latitudes",destLat);
                     intent.putExtra("longitudes",destLong);
+                    intent.putExtra("details",details);
                     startActivity(intent);
                 }
             });

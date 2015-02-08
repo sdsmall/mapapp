@@ -37,9 +37,9 @@ public class WelcomeScreenActivity extends Activity {
         //draw navigate button
         b1=(Button)findViewById(R.id.button2);
         b1.getBackground().setAlpha(70);
-        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/OpenSans-Regular.ttf");
         b1.setTypeface(tf);
-        b1.setTextSize(15);
+        b1.setTextSize(17);
         b1.setTextColor(Color.parseColor("#1E359D"));
 
         //on click switch to choice list class

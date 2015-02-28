@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#00FFFFFF"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="#3E80B4"
+        android:background="#00FFFFFF"
+        android:textSize="15dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/site"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="#3E80B4"
+        android:background="#00FFFFFF"
+        android:textSize="15dp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_from_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="#3E80B4"
+        android:clickable="true"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btn_panther_central"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="#3E80B4"
+        android:clickable="true"
+        android:text="Call Panther Central"
+        android:textColor="@android:color/white"/>
+
+
+    <Button
+        android:id="@+id/btn_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="#3E80B4"
+        android:clickable="true"
+        android:text="Cancel"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

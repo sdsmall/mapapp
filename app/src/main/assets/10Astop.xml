@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pointset name="10A Stop">
+	<point name="Cathedral of Learning">
+		<latitude>40.44437</latitude>
+		<longitude>-79.95451</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+			<phone>
+				<name>SafeRider</name>
+				<number>4126482255</number>
+			</phone>
+			<hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Bigelow and Lytton">
+		<latitude>40.4463287</latitude>
+		<longitude>-79.9555372</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Bigelow and Tennyson">
+		<latitude>40.4468624</latitude>
+		<longitude>-79.95479</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Bigelow and Ruskin">
+		<latitude>40.4474168</latitude>
+		<longitude>-79.9540273</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Bayard and North Bellefield">
+		<latitude>40.4483626</latitude>
+		<longitude>-79.9527173</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Bayard and North Dithridge">
+		<latitude>40.4489897</latitude>
+		<longitude>-79.9518398</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="218 North Craig Street">
+		<latitude>40.450539</latitude>
+		<longitude>-79.950785</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Centre and North Bellefield">
+		<latitude>40.8837829</latitude>
+		<longitude>-79.9040089</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Centre and Bryn Mawr">
+		<latitude>40.4489984</latitude>
+		<longitude>-79.9576344</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Dental Fraternity">
+		<latitude>40.44518</latitude>
+		<longitude>-79.96084</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Sutherland Hall">
+		<latitude>40.4458344</latitude>
+		<longitude>-79.9626513</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Trees Hall">
+		<latitude>40.4441758</latitude>
+		<longitude>-79.9653683</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Terrace and Lothrop">
+		<latitude>40.4425576</latitude>
+		<longitude>-79.9622124</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Fifth and Lothrop">
+		<latitude>40.4411133</latitude>
+		<longitude>-79.9593693</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Forbes Hall">
+		<latitude>40.4403041</latitude>
+		<longitude>-79.959167</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Forbes and Oakland">
+		<latitude>40.441556</latitude>
+		<longitude>-79.9569672</longitude>
+		<detail>
+			<textList>
+				<text>Approximate running hours:</text>
+				<text>Monday - Friday 12:00am-4:00am, 7:00am-12:00am</text>
+				<text>Saturday 12:00am-4:00am, 10:00am-12:00am</text>
+				<text>Sunday 12:00am-4:00am, 9:00am-12:00am</text>
+			</textList>
+            <phone>
+                <name>SafeRider</name>
+                <number>4126482255</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt Shuttle Tracker</title>
+                <link>www.pittshuttle.com/m/</link>
+            </hyperlink>
+		</detail>
+	</point>
+</pointset>

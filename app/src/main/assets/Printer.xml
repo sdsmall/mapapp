@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pointset name="Self Service Printers">
+	<point name="Barco Law Building">
+		<latitude>40.4419089</latitude>
+		<longitude>-79.9555973</longitude>
+		<detail>
+			<textList>
+				<text>4th Floor</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Benedum Hall">
+		<latitude>40.4434816</latitude>
+		<longitude>-79.9587001</longitude>
+		<detail>
+			<textList>
+				<text>Basement</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Bruce Hall">
+		<latitude>40.4429845</latitude>
+		<longitude>-79.9552497</longitude>
+		<detail>
+			<textList>
+				<text>Lobby</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Cathedral of Learning">
+		<latitude>40.4442945</latitude>
+		<longitude>-79.9532041</longitude>
+		<detail>
+			<textList>
+				<text>Ground Floor</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Forbes Hall">
+		<latitude>40.440247</latitude>
+		<longitude>-79.959157</longitude>
+		<detail>
+			<textList>
+				<text>Lobby</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Forbes Tower">
+		<latitude>40.4405577</latitude>
+		<longitude>-79.9576363</longitude>
+		<detail>
+			<textList>
+				<text>4th Floor</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Information Sciences Building">
+		<latitude>40.4474059</latitude>
+		<longitude>-79.9526582</longitude>
+		<detail>
+			<textList>
+				<text>3rd Floor</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Litchfield Towers">
+		<latitude>40.442542</latitude>
+		<longitude>-79.957064</longitude>
+		<detail>
+			<textList>
+				<text>Lobby</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Lothrop Hall">
+		<latitude>40.4423087</latitude>
+		<longitude>-79.9611548</longitude>
+		<detail>
+			<textList>
+				<text>Lobby</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="O'Hara Student Center">
+		<latitude>40.4447644</latitude>
+		<longitude>-79.9572176</longitude>
+		<detail>
+			<textList>
+				<text>2nd Floor</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Parran Hall">
+		<latitude>40.4431173</latitude>
+		<longitude>-79.9592016</longitude>
+		<detail>
+			<textList>
+				<text>3rd Floor</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Salk Hall">
+		<latitude>40.4427676</latitude>
+		<longitude>-79.9630683</longitude>
+		<detail>
+			<textList>
+				<text>2nd and 4th Floors</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Scaife Hall">
+		<latitude>40.4425133</latitude>
+		<longitude>-79.961826</longitude>
+		<detail>
+			<textList>
+				<text>Falk Library</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Sennott Square">
+		<latitude>40.4415304</latitude>
+		<longitude>-79.9563352</longitude>
+		<detail>
+			<textList>
+				<text>2nd Floor</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Sutherland Hall">
+		<latitude>40.4458344</latitude>
+		<longitude>-79.9626513</longitude>
+		<detail>
+			<textList>
+				<text>Lobby</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="University Store on Fifth">
+		<latitude>40.443163</latitude>
+		<longitude>-79.955614</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Victoria Hall">
+		<latitude>40.4418216</latitude>
+		<longitude>-79.9602943</longitude>
+		<detail>
+			<textList>
+				<text>2nd Floor</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Wesley W. Posvar Hall">
+		<latitude>40.4417002</latitude>
+		<longitude>-79.953839</longitude>
+		<detail>
+			<textList>
+				<text>1st and 5th Floors</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="William Pitt Union">
+		<latitude>40.4434019</latitude>
+		<longitude>-79.954831</longitude>
+		<detail>
+			<textList>
+				<text>Lobby</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+</pointset>

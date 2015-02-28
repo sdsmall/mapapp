@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pointset name="Computer Lab">
+	<point name="Alumni Hall">
+		<latitude>40.445603</latitude>
+		<longitude>-79.953835</longitude>
+		<detail>
+			<textList>
+				<text>Room B-40</text>
+				<text>Monday-Thursday 7:30am-10:00pm</text>
+				<text>Friday 7:30am-6:00pm</text>
+				<text>Saturday-Sunday CLOSED</text>
+			</textList>
+			<phone>
+				<name>Technology Help Desk</name>
+				<number>4126244357</number>
+			</phone>
+			<hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Benedum Hall">
+		<latitude>40.4434816</latitude>
+		<longitude>-79.9587001</longitude>
+		<detail>
+			<textList>
+				<text>Room B-06</text>
+				<text>Monday-Thursday 7:30am-10:00pm</text>
+				<text>Friday 7:30am-6:00pm</text>
+				<text>Saturday 10:00am-6:00pm</text>
+				<text>Sunday Noon-10:00pm</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Cathedral of Learning">
+		<latitude>40.4442945</latitude>
+		<longitude>-79.9532041</longitude>
+		<detail>
+			<textList>
+				<text>Room G-27</text>
+				<text>Monday-Thursday 7:30am-10:00pm</text>
+				<text>Friday 7:30am-6:00pm</text>
+				<text>Saturday 10:00am-6:00pm</text>
+				<text>Sunday Noon-10:00pm</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Cathedral of Learning">
+		<latitude>40.4442945</latitude>
+		<longitude>-79.9532041</longitude>
+		<detail>
+			<textList>
+				<text>Room G-62</text>
+				<text>Monday-Thursday 7:30am-10:00pm</text>
+				<text>Friday 7:30am-6:00pm</text>
+				<text>Saturday-Sunday CLOSED</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Hillman Library">
+		<latitude>40.4426029</latitude>
+		<longitude>-79.9541547</longitude>
+		<detail>
+			<textList>
+				<text>Room 112</text>
+				<text>Monday-Thursday Open 24 Hours</text>
+				<text>Friday Closes at 6:00pm</text>
+				<text>Saturday 9:00am-10:00pm</text>
+				<text>Sunday Opens at 10:00am</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="David Lawrence Hall">
+		<latitude>40.4422498</latitude>
+		<longitude>-79.9549787</longitude>
+		<detail>
+			<textList>
+				<text>Room 230</text>
+				<text>Monday-Sunday 7:30am-9:30pm</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Sutherland Hall">
+		<latitude>40.4458344</latitude>
+		<longitude>-79.9626513</longitude>
+		<detail>
+			<textList>
+				<text>Room C-114</text>
+				<text>Monday-Friday 7:30am-10:00pm</text>
+				<text>Saturday-Sunday 10:00am-10:00pm</text>
+			</textList>
+            <phone>
+                <name>Technology Help Desk</name>
+                <number>4126244357</number>
+            </phone>
+            <hyperlink>
+                <title>Pitt 24/7 Tech Support</title>
+                <link>http://technology.pitt.edu/category/24x7-support</link>
+            </hyperlink>
+		</detail>
+	</point>
+</pointset>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pointset name="PNC ATMs">
+	<point name="Nordenberg Hall">
+		<latitude>40.4439235</latitude>
+		<longitude>-79.9558853</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Litchfield Towers">
+		<latitude>40.442542</latitude>
+		<longitude>-79.957064</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Bruce Hall">
+		<latitude>40.4429845</latitude>
+		<longitude>-79.9552497</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="William Pitt Union">
+		<latitude>40.4434019</latitude>
+		<longitude>-79.954831</longitude>
+		<detail>
+			<textList>
+				<text>1st and 5th Floors</text>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Petersen Events Center">
+		<latitude>40.4439811</latitude>
+		<longitude>-79.9624812</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Sutherland Hall">
+		<latitude>40.4458344</latitude>
+		<longitude>-79.9626513</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Lothrop Hall">
+		<latitude>40.4417566</latitude>
+		<longitude>-79.9601213</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Public Safety Building">
+		<latitude>40.438646</latitude>
+		<longitude>-79.9606999</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Biomedical Science Tower">
+		<latitude>40.4424694</latitude>
+		<longitude>-79.9609899</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="Benedum Hall">
+		<latitude>40.4434816</latitude>
+		<longitude>-79.9587001</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+	<point name="PNC Bank">
+		<latitude>40.4433672</latitude>
+		<longitude>-79.9562971</longitude>
+		<detail>
+			<textList>
+			</textList>
+            <phone>
+                <name>PNC Bank Help</name>
+                <number>18887622265</number>
+            </phone>
+            <hyperlink>
+                <title>PNC Online Banking</title>
+                <link>https://www.pnc.com/en/personal-banking/banking/online-and-mobile-banking.html</link>
+            </hyperlink>
+		</detail>
+	</point>
+</pointset>
